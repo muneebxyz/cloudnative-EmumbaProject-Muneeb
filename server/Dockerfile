@@ -1,4 +1,4 @@
-# stage - build
+# stage - build.
 FROM golang:1.14.4-stretch as build
 WORKDIR /code
 # copy package manifest(less-frequent changing layer)
