@@ -13,6 +13,10 @@ Although I was not having any advance knowledge of **kubernetes and GitHub actio
 In case application is not loading use port forward command: 
                        ```kubectl port-forward --address 0.0.0.0 -n default service/frontend-service 8080:8080 &```
 
+## FILES:
+**All files of this project including manifests for frontend, api, database, network policy & CI github actions code are uploaded in the github repo (master branch) & are also attached with the email reply on which I got assignment.**
+
+
 ## APPROACH TO SOLVE PROBLEM
 
 The approach that I am using to solve this assigned project is as follows explained in steps:
