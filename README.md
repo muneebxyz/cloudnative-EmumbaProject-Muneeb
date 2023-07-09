@@ -126,7 +126,7 @@ I have implemented a mechanism that when the change in client directory is taken
 **FRONTEND MANIFESTS:**
 In frontend-service I have simply created a service and configured its port & nodeport.
 
-In frontend-deployment, I have set its ***replicas=1*** as kubernetes create the pods from replicas. Than I have established the containers using image in my dockerhub public repo as: ***muneebxyz/eemumba_project:frontend***
+In frontend-deployment, I have set its ***replicas=1*** as kubernetes create the pods from replicas. Than I have established the containers using image in my dockerhub public repo as: ***muneebxyz/emumba_project:frontend***
 
 **DATABASE MANIFESTS:**
 In the db-service file, I have created its service and configured its ports as its ***mongodb*** so its port is confgigured to 27017.
