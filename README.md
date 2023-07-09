@@ -7,6 +7,12 @@ Although I was not having any advance knowledge of **kubernetes and GitHub actio
     LINK TO MY REPO: https://github.com/muneebxyz/cloudnative-EmumbaProject-Muneeb
     LINK TO CLONE: https://github.com/muneebxyz/cloudnative-EmumbaProject-Muneeb.git
 
+**LINK TO APPLICATION**:
+                           http://13.229.117.48:8080/
+                           
+In case application is not loading use port forward command: 
+                       ```kubectl port-forward --address 0.0.0.0 -n default service/frontend-service 8080:8080 &```
+
 ## APPROACH TO SOLVE PROBLEM
 
 The approach that I am using to solve this assigned project is as follows explained in steps:
