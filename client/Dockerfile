@@ -1,4 +1,4 @@
-# stage - build part 1
+# stage - build part 1 
 FROM node:14-alpine as immutable-dependencies
 WORKDIR /code
 RUN npm set progress=false && npm config set depth 0
